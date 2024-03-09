@@ -1,23 +1,10 @@
 /* nav section starts  */
-.navi{
-    /* background-color: red; */
-}
-
-.navi .bran{
-    margin-right: 15rem;
-}
-
-.navi .cont{
-    /* background-color: aqua; */
-}
-
 .navi .cont ul{
-    /* display: inline-block; */  
+    margin: 0 auto; 
 }
 
 .navi .cont ul li{
     padding-right: 3rem;
-    /* font-weight: bold; */
     color: #506690;
     font-size: 800;
 }
@@ -75,4 +62,37 @@
     background-color: #eaeffd;
     color: #335eea;
 }
+
+.hero .descri{
+    margin: 6rem 0;
+}
+
+.hero .descri .descri2 .icony{
+    font-size: 3rem;
+    color: #335eea;
+    /* margin-bottom: 1.5rem; */
+}
+
+.hero .descri .descri2 .dev{
+    font-size: 1.2rem;
+    margin: .8rem 0;
+}
+
+.hero .descri .descri2 .dev2{
+    color: #8e9abc;
+    font-size: 1.1rem;
+}
 /* hero section ends  */
+
+/* socials section begins  */
+.socials{
+    border-top: 5px solid red;
+ 
+}
+
+.socials .social img{
+    /* display: inline-block;
+    margin: 0 auto;
+    color: #506690;
+} */
+/* socials section ends  */
