@@ -82,17 +82,28 @@
     color: #8e9abc;
     font-size: 1.1rem;
 }
+
+@media (max-width: 768px){
+    .hero{
+        margin-top: .5rem;
+    }
+
+    .wlc h1{
+        font-size: 2rem;
+    }
+}
+
 /* hero section ends  */
 
 /* socials section begins  */
 .socials{
-    border-top: 5px solid red;
- 
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 0 .15rem #8e9abc;
 }
 
 .socials .social img{
-    /* display: inline-block;
-    margin: 0 auto;
-    color: #506690;
-} */
+    width: 6rem;
+    height: 6rem;
+} 
 /* socials section ends  */
