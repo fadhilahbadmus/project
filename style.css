@@ -1,84 +1,88 @@
 /* nav section starts  */
+.navi {
+    margin: 2rem 0 5rem 0;
+}
+
+
 .navi .cont ul{
     margin: 0 auto; 
 }
 
 .navi .cont ul li{
     padding-right: 3rem;
-    color: #506690;
-    font-size: 800;
+   
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
-.navi .cont .buy{
-    background-color: #335eea;
-    color: #fff;
-    border-radius: .5rem;
-    border-style: none;
+.navi .cont ul li a{
+    color: #506690;
+}
+
+.navi .cont ul li a:hover{
+   color: blue;
 }
 /* nav section ends  */
 
 /* hero section starts  */
 
-.hero{
-    margin-top: 8rem;
+.hero .main .title{
+    font-size: 2.5rem;
+    font-weight: lighter;
 }
 
-.wlc{
-    /* text-align: center; */
-    padding-top: 4rem;
-}
-
-.wlc h1{
-    font-size: 3rem;
-}
-
-.wlc .desc{
-    color: #9fb0c7;
-}
-
-.wlc .title span{
+.hero .main .title span{
     color: #335eea;
 }
 
-.btn{
-    /* padding: 4rem; */
-    /* border-color: none; */
-    margin-top: 2rem;
+.hero .main .desc{
+    /* color: #9fb0c7; */
+    color: #969ab8;
+    font-weight: 350;
+    margin: 1rem 0 4rem 0;
 }
 
-.btn .btn1, .btn2{
-    padding: .9rem;
-    font-size: 1rem;
-    border-color: none;
-    border-radius: .5rem;
+.hero .ctas a{
+    padding: 1rem;
+    font-weight: 500;
 }
 
-.btn .btn1{
-    background-color: #335eea;
-    color: #fff;
-}
-
-.btn .btn2{
+.hero .ctas a:nth-child(2){
     background-color: #eaeffd;
-    color: #335eea;
+    color: #335eed;
 }
+
+.hero .ctas a:hover{
+    cursor: pointer;
+}
+
+.hero .ctas a .icon{
+    padding-left: 1rem;
+}
+
+/* .hero .image img{
+    display: block;
+    margin: 0 auto;
+} */
 
 .hero .descri{
     margin: 6rem 0;
 }
 
 .hero .descri .descri2 .icony{
+    display: block;
     font-size: 3rem;
     color: #335eea;
     /* margin-bottom: 1.5rem; */
 }
 
-.hero .descri .descri2 .dev{
-    font-size: 1.2rem;
+.hero .descri .descri2 h3{
+    font-size: 1.4rem;
     margin: .8rem 0;
+    font-weight: 400;
 }
 
-.hero .descri .descri2 .dev2{
+.hero .descri .descri2 p{
     color: #8e9abc;
     font-size: 1.1rem;
 }
@@ -95,15 +99,62 @@
 
 /* hero section ends  */
 
-/* socials section begins  */
-.socials{
-    text-align: center;
+/* logos section begins  */
+.logos{
+    /* text-align: center; */
     padding: 2rem;
     box-shadow: 0 0 .15rem #8e9abc;
 }
 
-.socials .social img{
-    width: 6rem;
+.logos .logo img{
+    display: block;
     height: 6rem;
+    margin: 0 auto;
 } 
-/* socials section ends  */
+/* logos section ends  */
+
+/* footer section starts  */
+.footer{
+    margin: 5rem 0;
+}
+
+.footer .content h5{
+    padding: .5rem 0;
+    font-weight: lighter;
+    color: #8e9abc;
+}
+
+.footer .content div .icon{
+    display: inline-block;
+    padding-right: .5rem;
+}
+
+.footer .content div .icon:hover{
+    cursor: pointer;
+}
+
+.footer .icon{
+    justify-content: center;
+}
+
+.footer .cont h6{
+    padding-bottom: 1rem;
+}
+
+.footer .cont li{
+    text-align: left;
+    list-style-type: none;
+    padding-bottom: 1rem;
+}
+
+.footer .cont li a{
+    text-decoration: none;
+    color: #8e9abc;
+}
+
+.footer .cont li a:hover{
+    text-decoration: ;
+}
+
+
+/* footer section ends  */

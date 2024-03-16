@@ -19,18 +19,19 @@
 
 </head>
 <body>
-    <!-- nav section begins  -->
+    
     <div class="wrapper">
+    <!-- nav section begins  -->
         <nav class="navbar navbar-expand-lg navi">
-            <div class="container">
+            <div class="container col-12">
                 <a class="navbar-brand bran" href="#"><img src="./images/brand.svg" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <button class=vbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse cont" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Landings</a>
+                            <a class="nav-link" aria-current="page" href="#">Landings</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Pages</a>
@@ -42,85 +43,146 @@
                             <a class="nav-link" href="#">Documentation</a>
                         </li>
                     </ul>
-                    <button class="navbar-text buy">
+                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <!-- <button class="navbar-text buy">
                         Buy now
-                    </button>
+                    </button> -->
                 </div>
             </div>
-        </nav>
-    </div>
+        </nav> 
     <!-- nav section ends  -->
 
     <!-- hero section starts  -->
-    <div class="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 wlc order-md-1">
-                    <h1 class="title">Welcome to <span>Landkit</span>.</h1>
-                    <h1 class="title">Develop anything.</h1>
-                    <h4 class="desc">Build a beautiful, modern website with flexible Bootstrap components built from scratch.</h4>
-                    <div class="btn">
-                        <button class="btn1">view all pages</button>
-                        <button class="btn2">Documentation</button>
-                    </div> 
-                </div>
-                
-                <div class="col-md-6 wlc2 order-md-2">
-                    <img src="./images/illustration-2.png" class="img-responsive" width="115%" alt="">            
-                </div>
-            </div>
 
-            <div class="row descri">
-                <div class="col-md-4 descri2">
-                    <i class="bi-repeat icony"></i>
-                    <h3 class="dev">Built for developers</h3>
-                    <p class="dev2">Landkit is built to make your life easier. Variables, build tooling, documentation, and reusable components.</p>
+        <div class="hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 main order-md-1">
+                        <h1 class="title">Welcome to <span>Landkit</span>.</h1>
+                        <h1 class="title">Develop anything.</h1>
+                        <h4 class="desc">Build a beautiful, modern website with flexible Bootstrap components built from scratch.</h4>
+
+                        <div class="ctas">
+                            <a href="#" class="btn btn-primary">view all pages <i class="bi bi-arrow-right icon"></i></a>
+                            <a href="#" class="btn">Documentation</a>
+                        </div> 
+                    </div>
+                    
+                    <div class="col-md-6 image order-md-2">
+                        <img src="./images/illustration-2.png" class="img-responsive" width="100%" alt="illustration-image">            
+                    </div>
                 </div>
 
-                <div class="col-md-4 descri2">
-                    <i class="bi-layout-wtf icony"></i>
-                    <h3 class="dev">Designed to be modern</h3>
-                    <p class="dev2">Designed with the latest design trends in mind. Landkit feels modern, minimal, and beautiful.</p>
-                </div>
+                <div class="row descri">
+                    <div class="col-md-4 descri2">
+                        <i class="bi-repeat icony"></i>
+                        <h3>Built for developers</h3>
+                        <p>Landkit is built to make your life easier. Variables, build tooling, documentation, and reusable components.</p>
+                    </div>
 
-                <div class="col-md-4 descri2">
-                    <i class="bi-code-slash icony"></i>
-                    <h3 class="dev">Documentation for everything</h3>
-                    <p class="dev2">We've written extensive documentation for components and tools, so you never have to reverse engineer anything.</p>
+                    <div class="col-md-4 descri2">
+                        <i class="bi-layout-wtf icony"></i>
+                        <h3>Designed to be modern</h3>
+                        <p>Designed with the latest design trends in mind. Landkit feels modern, minimal, and beautiful.</p>
+                    </div>
+
+                    <div class="col-md-4 descri2">
+                        <i class="bi-code-slash icony"></i>
+                        <h3>Documentation for everything</h3>
+                        <p>We've written extensive documentation for components and tools, so you never have to reverse engineer anything.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     <!-- hero section ends  -->
 
-    <!-- socials section begins  -->
-    <div class="socials">
-        <div class="container">
+    <!-- logos section begins  -->
+        <div class="logos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-4 col-xl-2 logo">              
+                        <img src="./images/airbnb-logo.png" alt="" class="img-responsive" width="100%">
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2 logo">
+                        <img src="./images/coin1.png" alt="" class="img-responsive" width="100%">
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2 logo">
+                        <img src="./images/png-transparent-dribbble-logo.png" alt="" 
+                        class="img-responsive" width="100%">
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2 logo">
+                        <img src="./images/instagram-logo-removebg-preview.png" alt="" 
+                        class="img-responsive" width="100%">
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2 logo">
+                        <img src="./images/netflix-logo-removebg-preview (2).png" alt="" class="img-responsive" width="100%">
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2 logo">
+                        <img src="./images/pinterest_logo-removebg-preview.png" alt="" 
+                        class ="img-responsive" width="100%">
+                    </div>               
+                </div>
+            </div>
+        </div>
+    <!-- logos section ends  -->
+
+    <!-- footer section starts  -->
+    <div class="footer">
+        <div class="container"> 
             <div class="row">
-                <div class="col-6 col-md-4 col-xl-2 social">              
-                    <img src="./images/airbnb-logo.png" alt="" class="img-responsive" width="100%">
+                <div class="col-6 col-md-3 content">
+                    <a class="navbar-brand bran" href="#"><img src="./images/brand.svg" alt=""></a>
+                    <h5>A better way to build.</h5>
+                    <div>
+                        <i class="bi bi-facebook icon"></i>
+                        <i class="bi-twitter icon"></i>
+                        <i class="bi-instagram icon"></i>
+                    </div>
                 </div>
-                <div class="col-6 col-md-4 col-xl-2 social">
-                    <img src="./images/coin1.png" alt="" class="img-responsive" width="100%">
+                <div class="col-6 col-md-2 cont">
+                    <ul>
+                        <li>PRODUCTS</li>
+                        <li><a href="#">Page Builder</a></li>
+                        <li><a href="#">UI Kit</a></li>
+                        <li><a href="#">Styleguide</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Changelog</a></li>
+                    </ul>
                 </div>
-                <div class="col-6 col-md-4 col-xl-2 social">
-                    <img src="./images/png-transparent-dribbble-logo.png" alt="" 
-                    class="img-responsive" width="100%">
+                <div class="col-6 col-md-2 cont">
+                    <ul>
+                        <li>SERVICES</li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Changelog</a></li>
+                        <li><a href="#">Pagebuilder</a></li>
+                        <li><a href="#">UI Kit</a></li>
+                    </ul>
                 </div>
-                <div class="col-6 col-md-4 col-xl-2 social">
-                    <img src="./images/instagram-logo-removebg-preview.png" alt="" 
-                    class="img-responsive" width="100%">
+                <div class="col-6 col-md-2 cont">
+                    <ul>
+                        <li>CONNECT</li>
+                        <li><a href="#">Page Builder</a></li>
+                        <li><a href="#">UI Kit</a></li>
+                        <li><a href="#">Styleguide</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Changelog</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Changelog</a></li>
+                    </ul>
                 </div>
-                <div class="col-6 col-md-4 col-xl-2 social">
-                    <img src="./images/netflix-logo-removebg-preview (2).png" alt="" class="img-responsive" width="100%">
+                <div class="col-6 col-md-3 cont">
+                    <ul>
+                        <li>LEGAL</li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Changelog</a></li>
+                        <li><a href="#">Pagebuilder</a></li>
+                    </ul>
                 </div>
-                <div class="col-6 col-md-4 col-xl-2 social">
-                    <img src="./images/pinterest_logo-removebg-preview.png" alt="" 
-                    class ="img-responsive" width="100%">
-                </div>               
             </div>
         </div>
     </div>
-    <!-- socials section ends  -->
+    <!-- footer section ends  -->
+    </div>
+   
 </body>
 </html>
