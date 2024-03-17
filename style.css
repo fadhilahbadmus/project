@@ -102,6 +102,7 @@
 /* logos section begins  */
 .logos{
     /* text-align: center; */
+    margin-bottom: 5rem;
     padding: 2rem;
     box-shadow: 0 0 .15rem #8e9abc;
 }
@@ -112,6 +113,68 @@
     margin: 0 auto;
 } 
 /* logos section ends  */
+
+/* forms section begins  */
+
+.forms .cardi form{
+    padding-top: .1rem;
+}
+
+.forms .cardi form input{
+    border: none;
+    border-bottom: .01rem solid #969ab8;
+}
+
+.forms .sample{
+    background-color: #42ba96;
+    color: white;
+    margin-top: 1rem;
+    padding: .75rem 0;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.forms .sample:hover{
+    cursor: pointer;
+    box-shadow: 0 0 .15rem #42ba96;
+    transform: translate(3);
+}
+
+.forms .content h2{
+    font-weight: lighter;
+}
+
+.forms .content h2.content-desc{
+    color: #42c0c2;
+    margin-bottom: 1.5rem;
+}
+
+.forms .content h5.content-descy{
+    color: #86a6d0;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.forms .check{
+    margin-top: 3.5rem;
+}
+
+.forms .check div.one{
+    margin-bottom: 1.5rem;
+}
+
+.forms .check h5{
+    color: #42c0c2;
+    font-weight: 450;
+}
+
+.forms .check h5 .iconic{
+    margin-right: 1rem;
+    background-color: #e9f6f3;
+    border-radius: 50%;
+}
+/* forms section ends  */
 
 /* footer section starts  */
 .footer{
@@ -155,6 +218,4 @@
 .footer .cont li a:hover{
     text-decoration: ;
 }
-
-
 /* footer section ends  */
